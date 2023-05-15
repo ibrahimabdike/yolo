@@ -7,7 +7,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.network "forwarded_port", guest: 5000, host: 5000, protocol: "tcp"
   config.ssh.insert_key = false
   config.vm.provider :virtualbox do |v|
-    v.memory = 4096
+    v.memory = 3072
   end
   # Ansible provisioning.
   config.vm.provision "ansible" do |ansible|
