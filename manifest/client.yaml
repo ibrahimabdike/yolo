@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: yolo-client
-        image: ibrahimabdike/yolo-client-image:v1
+        image: ibrahimabdike/yolo-client-image:v1.2
         ports:
         - containerPort: 3000
         env:
