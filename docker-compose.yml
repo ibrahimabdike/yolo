@@ -20,7 +20,7 @@ services:
     networks:
       - yolo-service
   yolo-web-backend:
-    image: ibrahimabdike/yolo-client-image:v1
+    image: ibrahimabdike/yolo-backend-image:v1
     environment:
       MONGODB_URI: mongodb://yolo-mongo-db:27017/yolomy
     ports:
